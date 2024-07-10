@@ -1,0 +1,62 @@
+/* header             */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo {
+    display: flex; /* включаю flexbox */
+    flex-direction: row; /*напр блоков слева напр(в строчку) */
+    align-items: center; /* напр блоков относит оси oy по центру */
+    flex-grow: 1;  /* размер блока с названием (вес) относит других эл */
+}
+.logo-img {
+    margin-right: 40px;
+}
+.header-menu {
+    flex-grow: 3;
+}
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social-networks {
+    display: flex;
+    justify-content: flex-end;
+}
+.footer-logo {
+    margin: 10px;
+    width: 150px;
+    height: 90px;
+}
+.footer-search {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+.footer-search-input {
+    height: 30px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.footer-search-button {
+    height: 30px;
+    flex-grow: 2;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: bold;
+}
